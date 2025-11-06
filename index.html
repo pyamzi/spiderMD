@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>SpiderMD — spidermd.org</title>
+    <meta name="description" content="Minimal test page for spidermd.org" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container" role="main">
+        <h1>SpiderMD</h1>
+        <p>Minimal test page for <strong>spidermd.org</strong>.</p>
+
+        <p>Site status: <span id="status" class="status">loading…</span></p>
+
+        <footer>
+            <div>&copy; <span id="year"></span> spidermd.org — for testing only</div>
+        </footer>
+    </div>
+
+    <script>
+        // tiny runtime to demonstrate the page is working
+        document.getElementById('status').textContent = 'ok';
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

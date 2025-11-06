@@ -1,0 +1,3 @@
+# Redirect from .net to .org
+https://spidermd.net/*  https://www.spidermd.org/:splat  301!
+http://spidermd.net/*   https://www.spidermd.org/:splat  301!

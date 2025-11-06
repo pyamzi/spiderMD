@@ -1,0 +1,27 @@
+/* Extracted styles from index.html */
+:root{color-scheme:light dark}
+html,body{height:100%}
+body{
+    margin:0;
+    font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:24px;
+    background:#f8f9fb;
+    color:#111;
+}
+.container{
+    max-width:720px;
+    width:100%;
+    background:#fff;
+    border:1px solid #e6e9ef;
+    padding:28px;
+    border-radius:8px;
+    box-shadow:0 6px 18px rgba(27,31,35,0.06);
+    text-align:left;
+}
+h1{margin:0 0 8px;font-size:1.5rem}
+p{margin:0 0 12px;color:#444}
+footer{font-size:0.85rem;color:#666;margin-top:14px}
+.status{font-weight:600}
